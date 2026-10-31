@@ -33,7 +33,7 @@ ares-launch --device tv com.notyitan.tv
 
 ## Créditos y origen
 
-Este paquete (`com.notyitan.tv`) es una **versión modificada** de un port preexistente de Xuper TV para webOS (`com.webosflux.xuptertv.fidelity`, v1.5.11). El trabajo base y gran parte del código del servicio (proxy, relay y `ffmpeg`) son de su autor original: **[AUTOR ORIGINAL: completar nombre y enlace]**.
+Este paquete (`com.notyitan.tv`) es una **versión modificada** de un port preexistente de Xuper TV para webOS (`com.webosflux.xuptertv.fidelity`, v1.5.11). El trabajo base y gran parte del código del servicio (proxy, relay y `ffmpeg`) son de su autor original: **CristianDev**.
 
 **Por qué esta versión.** En las pruebas del autor de esta modificación, el paquete original estaba incompleto: mostraba muy pocos canales. Esta versión corrige esa parte del catálogo, de modo que aparecen todos los canales y además más películas y series.
 
