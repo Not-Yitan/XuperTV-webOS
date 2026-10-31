@@ -1,6 +1,6 @@
 # XuperTV para LG webOS
 
-Paquete `.ipk` (v1.0.0) e instaladores para televisores LG con webOS (probado en webOS 4).
+Paquete `.ipk` (v1.5.34) e instaladores para televisores LG con webOS (probado en webOS 4).
 
 > Proyecto no oficial, sin relación con XuperTV ni con LG. No incluye contenido audiovisual.
 
@@ -27,8 +27,8 @@ Solo necesita `ssh`, `curl` y `ar`. Descarga la llave de la TV (Key Server, puer
 npm i -g @webos-tools/cli
 ares-setup-device --add tv --info "{'host':'IP','port':'9922','username':'prisoner'}"
 ares-novacom --device tv --getkey
-ares-install --device tv com.webosflux.xuptertv.fidelity_1.0.0_all.ipk
-ares-launch --device tv com.webosflux.xuptertv.fidelity
+ares-install --device tv com.notyitan.tv_1.5.34_all.ipk
+ares-launch --device tv com.notyitan.tv
 ```
 
 ## Si falla

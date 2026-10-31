@@ -7,7 +7,7 @@ TV="${1:-}"; PASS="${2:-}"
 [ -n "$TV" ] && [ -n "$PASS" ] || { echo "Uso: $0 IP_TV CLAVE [archivo.ipk]"; exit 1; }
 AQUI="$(cd "$(dirname "$0")" && pwd)"
 IPK="${3:-$(ls "$AQUI"/*.ipk | head -n 1)}"
-APP=com.webosflux.xuptertv.fidelity
+APP=com.notyitan.tv
 R=/media/developer/temp
 VER="$(ar p "$IPK" control.tar.gz | tar -xzO control 2>/dev/null | sed -n 's/^Version: //p')"
 [ -n "$VER" ] || { echo "No pude leer la version del .ipk"; exit 1; }

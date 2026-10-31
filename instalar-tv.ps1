@@ -37,8 +37,8 @@ param(
 
 $ErrorActionPreference = 'Stop'
 
-$AppId      = 'com.webosflux.xuptertv.fidelity'
-$SvcId      = 'com.webosflux.xuptertv.fidelity.service'
+$AppId      = 'com.notyitan.tv'
+$SvcId      = 'com.notyitan.tv.service'
 $AppDir     = "/media/developer/apps/usr/palm/applications/$AppId"
 $SvcDir     = "/media/developer/apps/usr/palm/services/$SvcId"
 $ConfigFile = Join-Path $PSScriptRoot 'instalar-config.json'

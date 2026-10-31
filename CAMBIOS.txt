@@ -1,0 +1,6 @@
+Xuper TV 1.5.34
+- Retirado el botón ADULTO 18+ del menú lateral.
+- Retirado el recuadro Adult de Explorar y su acción.
+- Explorar muestra tres tarjetas laterales habituales y sus demás títulos.
+- Eliminada la raíz experimental masnew_adult del servicio.
+- Conservado el círculo de carga, la marca Xuper TV y el reproductor.
